@@ -1,8 +1,10 @@
 body {
      color:rgb(22, 56, 209);
      background:rgb(0, 0, 0) ;
-
-
-
-
+}
+header {
+border-bottom: solid 2px rgb(42, 122, 228);
+padding: 20px;
+font-size: 32px;
+color: blueviolet;
 }
