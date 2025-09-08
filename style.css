@@ -1,6 +1,8 @@
 body {
      color:rgb(22, 56, 209);
      background:rgb(0, 0, 0) ;
+     margin:0px;
+     font-family: Georgia, 'Times New Roman', Times, serif
 }
 header {
 border-bottom: solid 2px rgb(42, 122, 228);
@@ -8,15 +10,15 @@ padding: 20px;
 font-size: 32px;
 color: blueviolet;
 
+}
+.chamada {
+ background: rgb(73, 29, 29);
+ padding-bottom: 80px;
+ padding-top: 80px;
+ display: flex;
+ justify-content: center;
+}
 
-}
-section  {
-   background: rgb(255, 27, 27);
-   padding-bottom: 80px;
-   padding-top: 80px;
-   display: flex;
-   justify-content: center;
-}
 .chamada-texto {
      margin-right: 5%;
 }
@@ -26,4 +28,18 @@ h1{font-size: 40px ;
 }
 p{font-size: 20;
 
+}
+img {
+  height:200px;
+
+}
+.categoria-videos {
+     display: flex;
+     overflow: auto;
+     gap: 10px;
+
+}
+.categoria {
+padding-left: 20px;
+padding-right: 20px ;
 }
